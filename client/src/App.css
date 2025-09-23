@@ -1,0 +1,156 @@
+
+
+.main{
+  background-color: rgb(49, 51, 58);
+  width: 100%;
+  height: 100vh;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px 100px;
+  align-items: center;
+  font-size: 20px;
+
+}
+h2{
+  padding: unset;
+}
+.nav .logo{
+  font-weight: 900;
+  font-size: 50px;
+  width: 20%;
+}
+.nav .menu{
+  width: 50%;
+}
+.nav .menu ul{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+
+}
+li{
+  cursor: pointer;
+}
+.nav .profile{
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+}
+
+.form{
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.form h1{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px 0px;
+  width: 100%;
+}
+input{
+  outline: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.x{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.btn{
+  background-image: linear-gradient(to right, #4a6dde, #c022c5);
+  padding: 10px 40px;
+  margin: auto;
+  border-radius: 20px;
+  margin: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+
+.mt-20{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.cir{
+  display: flex;
+  align-items: center;
+}
+.popup_box{
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  /* right: ; */
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  /* display: none; */
+}
+.btn2{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 20px;
+  margin: 10px;
+  width: max-content;
+  cursor: pointer;
+}
+.btn3{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 20px;
+  margin: 10px;
+  width: max-content;
+  cursor: pointer;
+}
