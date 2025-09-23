@@ -10,7 +10,7 @@ import errorMiddleware from './middleware/error-middleware.js';
 const app = express();
 const PORT = process.env.PORT || 4000;
 connectDB()
-const allowdOrigins = ['http://localhost:4000', 'http://localhost:5173']
+const allowdOrigins = ['http://localhost:4000', 'http://localhost:5173', 'https://mern-auth-mongodb.onrender.com']
 
 app.use(express.json());
 app.use(cookieParser());
