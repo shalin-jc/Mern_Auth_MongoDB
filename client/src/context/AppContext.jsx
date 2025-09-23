@@ -8,7 +8,7 @@ export const AppContext = createContext()
 export const AppContextProvider = ({children})=>{
 
     axios.defaults.withCredentials = true
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://mern-auth-mongodb.onrender.com"
     const [isLoggedIn, setIsLoggedIn] = useState(false)
     const [userData, setUserData] = useState(false)
 
